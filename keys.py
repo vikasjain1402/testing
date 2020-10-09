@@ -15,5 +15,3 @@ command="sudo -S apt upgrade -y"
 print("Executing Upgrade....")
 os.system(f"echo {password} |{command}")
 print("Done")
-
-
