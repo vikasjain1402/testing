@@ -18,7 +18,7 @@ def find_text_in_file_in_path(path,text,ext):
                     print("...Excluding :",l)
                 else:
                     for m in r:
-                        if text in m:
+                        if text.lower() in m.lower():
                             print(i," $$ ",l)
                             inp=input("press 'n' to exit")
                             if inp=='N' or inp=='n'  :

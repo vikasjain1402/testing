@@ -4,7 +4,7 @@ os.system('xmodmap -e "keycode 108 =less"')
 os.system('xmodmap -e "keycode 135 =comma"')
 
 
-password="1@Million"
+password="Password"
 
 command="sudo -S apt update"
 print("Executing Update...")
