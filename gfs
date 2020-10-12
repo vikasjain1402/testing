@@ -18,7 +18,6 @@ def size_of_folder(path):
         for l in k:
             file_path=os.path.join(i,l)
             try:
-
                 a=os.path.getsize(file_path)
                 if a>1024*1024*1024:
                     print("File Size > 1GB :",i ,file_path, size_human_readable(a))
