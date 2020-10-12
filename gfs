@@ -31,6 +31,9 @@ def size_of_folder(path):
     return(size)
 
 
+
+
+
 if __name__=='__main__':
 
     path = sys.argv[1]
