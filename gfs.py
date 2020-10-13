@@ -14,7 +14,7 @@ def size_human_readable(size):
 
 def size_of_folder(path):
     size=0
-    for i,j,k in os.walk(path):
+    for i,_,k in os.walk(path):
         for l in k:
             file_path=os.path.join(i,l)
             try:

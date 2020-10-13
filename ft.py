@@ -4,7 +4,7 @@ import sys
 def find_text_in_file_in_path(path,text,ext):
 
     os.chdir(path)
-    for i,j,k in os.walk(path):
+    for i,_,k in os.walk(path):
         for l in k:
                 filepath=os.path.join(i,l)
                 try:
@@ -26,7 +26,6 @@ def find_text_in_file_in_path(path,text,ext):
                                 return
                             else:
                                 break
-
 
 if __name__=="__main__":
     text=input("Enter file text or phrase you want to Search : ")
