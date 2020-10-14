@@ -3,8 +3,8 @@ import os
 os.system('xmodmap -e "keycode 108 =less"')
 os.system('xmodmap -e "keycode 135 =comma"')
 
+password=os.environ['SUDO_PASSWORD']
 
-password="Password"
 
 command="sudo -S apt update"
 print("Executing Update...")
