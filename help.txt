@@ -1,0 +1,11 @@
+
+        Command Usage : command [options]
+        example       : z --help
+                      : z --update --keys --shutdown
+
+        options :
+            -h         :HELP
+            --help     :HELP
+            --keys     :Keys Update 
+            --shutdown :Shutdown Immidiatly
+            --update   :update and upgrade 
