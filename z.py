@@ -11,7 +11,7 @@ helpfilepath=os.path.join(Path(__file__).resolve().parent,"help.txt")
 
 if __name__=="__main__":
     args=sys.argv
-    if ("--help" in args) or ("-h" in args) or (len(args)==1) or (len(args)>3): 
+    if ("--help" in args) or ("-h" in args) or (len(args)==1) or (len(args)>4):
         with open (helpfilepath,'r') as f:
             print(f.read())
         

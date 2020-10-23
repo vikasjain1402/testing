@@ -1,57 +1,10 @@
-1869 : DEBUG : 2020-10-21 17:19:39,520 : testing2
-1869 : WARNING : 2020-10-21 17:19:39,520 : testing3
-1869 : WARNING : 2020-10-21 17:19:39,520 : testing4
-1891 : DEBUG : 2020-10-21 17:20:03,081 : testing2
-1891 : WARNING : 2020-10-21 17:20:03,082 : testing3
-1891 : WARNING : 2020-10-21 17:20:03,082 : testing4
-1903 : DEBUG : 2020-10-21 17:20:12,490 : testing2
-1903 : WARNING : 2020-10-21 17:20:12,490 : testing3
-1903 : WARNING : 2020-10-21 17:20:12,491 : testing4
-2165 : DEBUG : 2020-10-21 17:24:10,143 : Logging script ran from main program
-2173 : DEBUG : 2020-10-21 17:24:13,501 : Logging script ran from main program
-2174 : DEBUG : 2020-10-21 17:24:13,854 : Logging script ran from main program
-3089 : DEBUG : 2020-10-21 17:37:29,358 : Shutdown Default Log Message
-3257 : DEBUG : 2020-10-21 17:39:38,856 : Shutdown default Log message
-3304 : DEBUG : 2020-10-21 17:41:33,552 : Logging script ran from main program
-3339 : DEBUG : 2020-10-21 17:42:14,380 : Logging script ran from main program
-  DEBUG : 2020-10-21 17:44:37,312 : Logging script ran from main program
-DEBUG : 2020-10-21 17:45:10,164 : Logging script ran from main program
-DEBUG : 2020-10-21 17:46:16,266 : Logging script ran from main program
-DEBUG : 2020-10-21 17:46:37,333 : NO message received from {__name__}
-DEBUG : 2020-10-21 17:47:04,126 : NO message received from __main__
-DEBUG : 2020-10-21 17:50:50,276 : NO message received from log
-DEBUG : 2020-10-21 17:51:09,252 : NO message received from log
-DEBUG : 2020-10-21 17:51:36,396 : NO message received from log
-DEBUG : 2020-10-21 17:53:42,937 : NO message received from __main__
-DEBUG : 2020-10-21 18:29:38,823 : shutdwon from xyz
-DEBUG : 2020-10-21 18:30:07,076 : shutdwon from xyz
-DEBUG : 2020-10-21 18:30:10,105 : shutdwon from xyz
-DEBUG : 2020-10-21 18:30:43,216 : shutdwon from xyz
-DEBUG : 2020-10-21 18:31:19,457 : shutdwon from xyz
-DEBUG : 2020-10-21 18:32:55,376 : shutdwon from xyz1
-DEBUG : 2020-10-21 18:38:55,805 : shutdwon from xyz1
-DEBUG : 2020-10-21 18:39:53,654 : NO message received from log
-DEBUG : 2020-10-21 18:40:48,324 : NO message received from log
-DEBUG : 2020-10-21 18:41:10,404 : NO message received from log
-DEBUG : 2020-10-21 18:41:28,251 : NO message received from log
-DEBUG : 2020-10-21 18:45:30,084 : key modify script ran
-DEBUG : 2020-10-21 18:45:54,943 : key modify script ran
-DEBUG : 2020-10-21 18:51:32,932 : update upgrade script ran
-DEBUG : 2020-10-21 19:12:50,960 : update upgrade script ran
-DEBUG : 2020-10-21 19:33:36,549 : key Modify ran from z command
-DEBUG : 2020-10-21 19:33:36,564 : System update ran from z command
-DEBUG : 2020-10-21 19:33:36,587 : shutdown ran from z command
-DEBUG : 2020-10-21 19:34:14,310 : key Modify ran from z command
-DEBUG : 2020-10-21 19:34:14,411 : System update ran from z command
-DEBUG : 2020-10-21 19:34:59,627 : shutdown ran from z command
-DEBUG : 2020-10-21 19:36:31,942 : key Modify ran from z command
-DEBUG : 2020-10-21 19:36:32,306 : System update ran from z command
-DEBUG : 2020-10-21 19:37:03,441 : shutdown ran from z command
-DEBUG : 2020-10-21 19:38:32,248 : key Modify ran from z command
-DEBUG : 2020-10-21 19:38:32,548 : System update ran from z command
-DEBUG : 2020-10-21 19:39:03,296 : shutdown ran from z command
-DEBUG : 2020-10-21 19:41:34,264 : key Modify ran from z command
-DEBUG : 2020-10-21 19:42:03,080 : System update ran from z command
-DEBUG : 2020-10-21 19:46:07,893 : shutdwon from main file in 2 minutes
-DEBUG : 2020-10-21 20:38:17,757 : key Modify ran from z command
-DEBUG : 2020-10-21 20:38:18,151 : System update ran from z command
+DEBUG : 2020-10-22 14:45:20,468 : key Modify ran from z command from Function :keysmodify
+DEBUG : 2020-10-22 14:45:20,931 : System update ran from z command from Function :systemupdateupgrade
+DEBUG : 2020-10-22 14:51:23,003 : key Modify ran from z command from Function :keysmodify
+DEBUG : 2020-10-22 14:51:23,530 : System update ran from z command from Function :systemupdateupgrade
+DEBUG : 2020-10-22 14:51:45,625 : shutdown ran from z command from Function :shutdown
+DEBUG : 2020-10-23 06:44:18,173 : key modify script ran from Function :keysmodify
+DEBUG : 2020-10-23 17:04:15,873 : System update ran from z command from Function :systemupdateupgrade
+DEBUG : 2020-10-23 17:43:49,526 : key modify script ran from Function :keysmodify
+DEBUG : 2020-10-23 17:46:48,559 : shutdown ran from z command from Function :shutdown
+DEBUG : 2020-10-23 17:52:57,999 : key modify script ran from Function :keysmodify
