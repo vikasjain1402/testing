@@ -1,7 +1,7 @@
 import subprocess
 def kill_process_fun(processes=None):
     '''
-    :param processes: list desfault=  ['chrome','vscode','firefox','spyder','libr',"pycharm"]
+    :param processes: list desfault=  ['chrome','vscode','firefox','spyder','libr',"pycharm","terminator"]
     :return: None
     '''
     if processes is None:

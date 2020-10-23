@@ -1,9 +1,12 @@
 from log import logDecorator
 import os
+from killprocess import  kill_process_fun
 
 @logDecorator
 def shutdown(*args,**kwargs):
+
     time=kwargs.get('shutdownDelay',1)
+    kill_process_fun()
     password=os.environ['SUDO_PASSWORD']
     command=f"sudo shutdown -h {time}"
     os.system(f"echo {password} |{command}")
