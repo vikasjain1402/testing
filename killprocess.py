@@ -1,11 +1,11 @@
 import subprocess
 def kill_process_fun(processes=None):
     '''
-    :param processes: list desfault=  ['chrome','vscode','firefox','spyder','libr',"pycharm","terminator"]
+    :param processes: list desfault=  ['chrome','vscode','firefox','spyder','libr',"pycharm","terminator",'nemo']
     :return: None
     '''
     if processes is None:
-        processes=['chrome','vscode','firefox','spyder','libr',"pycharm"]
+        processes=['chrome','vscode','firefox','spyder','libr',"pycharm",'terminator','nemo']
     a=subprocess.run(['ps','-aux'],text=True,capture_output=True)
     lines=a.stdout.split("\n")
     pr_id=[]

@@ -12,3 +12,8 @@ DEBUG : 2020-10-23 20:59:49,323 : System update ran from z command from Function
 DEBUG : 2020-10-23 21:00:40,585 : shutdown ran from z command from Function :shutdown
 DEBUG : 2020-10-23 21:05:19,148 : key modify script ran from Function :keysmodify
 DEBUG : 2020-10-23 21:44:59,139 : key modify script ran from Function :keysmodify
+DEBUG : 2020-10-23 22:53:45,618 : shutdown ran from z command from Function :shutdown
+DEBUG : 2020-10-23 22:54:59,166 : shutdown ran from z command from Function :shutdown
+DEBUG : 2020-10-23 23:00:58,448 : shutdown ran from z command from Function :shutdown
+DEBUG : 2020-10-23 23:01:12,810 : shutdown ran from z command from Function :shutdown
+DEBUG : 2020-10-23 23:08:37,491 : shutdown ran from z command from Function :shutdown
