@@ -36,3 +36,4 @@ DEBUG : 2020-10-25 10:17:21,693 : key modify script ran from Function :keysmodif
 DEBUG : 2020-10-25 21:40:51,652 : System update ran from z command from Function :systemupdateupgrade
 DEBUG : 2020-10-26 09:02:42,345 : key modify script ran from Function :keysmodify
 DEBUG : 2020-10-26 09:29:41,184 : System update ran from z command from Function :systemupdateupgrade
+DEBUG : 2020-10-26 18:26:14,946 : key Modify ran from z command from Function :keysmodify

@@ -11,7 +11,7 @@ try:
         for l in li[0:3]:
             desireddata[l.split(":")[0]]=int(l.split(" ")[-2].split(" ")[0])
         #used=desireddata['MemTotal']-desireddata['MemAvailable']-desireddata['MemFree']
-        width=int(os.get_terminal_size().columns)-50
+        width=int(os.get_terminal_size().columns)-40
         used=desireddata['MemTotal']-desireddata['MemAvailable']
         usedpercentage=used*100/desireddata['MemTotal']
         print(Fore.GREEN+"live RAM USAGE {2}{3}  {1:.4f} GB   {0:.2f}%".
