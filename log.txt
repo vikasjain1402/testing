@@ -17,3 +17,22 @@ DEBUG : 2020-10-23 22:54:59,166 : shutdown ran from z command from Function :shu
 DEBUG : 2020-10-23 23:00:58,448 : shutdown ran from z command from Function :shutdown
 DEBUG : 2020-10-23 23:01:12,810 : shutdown ran from z command from Function :shutdown
 DEBUG : 2020-10-23 23:08:37,491 : shutdown ran from z command from Function :shutdown
+DEBUG : 2020-10-23 23:17:07,972 : shutdown ran from z command from Function :shutdown
+DEBUG : 2020-10-23 23:22:13,825 : shutdown ran from z command from Function :shutdown
+DEBUG : 2020-10-23 23:24:39,926 : shutdown ran from z command from Function :shutdown
+DEBUG : 2020-10-23 23:26:30,096 : shutdown ran from z command from Function :shutdown
+DEBUG : 2020-10-24 10:47:13,591 : key modify script ran from Function :keysmodify
+DEBUG : 2020-10-24 10:48:08,585 : shutdown ran from z command from Function :shutdown
+DEBUG : 2020-10-24 10:51:02,946 : key modify script ran from Function :keysmodify
+DEBUG : 2020-10-24 12:14:11,675 : System update ran from z command from Function :systemupdateupgrade
+DEBUG : 2020-10-24 12:14:48,321 : shutdown ran from z command from Function :shutdown
+DEBUG : 2020-10-24 18:15:36,052 : key modify script ran from Function :keysmodify
+DEBUG : 2020-10-24 22:42:31,289 : System update ran from z command from Function :systemupdateupgrade
+DEBUG : 2020-10-24 22:51:38,538 : key modify script ran from Function :keysmodify
+DEBUG : 2020-10-25 09:53:19,357 : key modify script ran from Function :keysmodify
+DEBUG : 2020-10-25 10:07:37,344 : System update ran from z command from Function :systemupdateupgrade
+DEBUG : 2020-10-25 10:08:01,922 : shutdown ran from z command from Function :shutdown
+DEBUG : 2020-10-25 10:17:21,693 : key modify script ran from Function :keysmodify
+DEBUG : 2020-10-25 21:40:51,652 : System update ran from z command from Function :systemupdateupgrade
+DEBUG : 2020-10-26 09:02:42,345 : key modify script ran from Function :keysmodify
+DEBUG : 2020-10-26 09:29:41,184 : System update ran from z command from Function :systemupdateupgrade

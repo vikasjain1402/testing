@@ -8,7 +8,7 @@ def shutdown(*args,**kwargs):
     time=kwargs.get('shutdownDelay',1)
     kill_process_fun()
     password=os.environ['SUDO_PASSWORD']
-    command=f"shutdown -h {time}"
+    command=f"shutdown"
     os.system(f"echo {password} |{command}")
 
 if __name__=="__main__":

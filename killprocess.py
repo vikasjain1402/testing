@@ -5,7 +5,7 @@ def kill_process_fun(processes=None):
     :return: None
     '''
     if processes is None:
-        processes=['chrome','vscode','firefox','spyder','libr',"pycharm",'terminator','nemo']
+        processes=['chrome','vscode','firefox','spyder','libr',"pycharm",'nemo',]
     a=subprocess.run(['ps','-aux'],text=True,capture_output=True)
     lines=a.stdout.split("\n")
     pr_id=[]

@@ -13,8 +13,11 @@ def systemupdateupgrade(*args,**kwargs):
     command = "sudo -S apt upgrade -y"
     print("Executing Upgrade....")
     os.system(f"echo {password} |{command}")
+    print("Done\n\n")
+    print("Executing auto remove ....")
+    command = "sudo -S apt autoremove -y"
+    os.system(f"echo {password} |{command}")
     print("Done")
-
 
 
 if __name__=="__main__":
