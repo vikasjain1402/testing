@@ -3,6 +3,7 @@ from time import sleep
 import subprocess
 import os
 from colorama import Back,Fore
+
 try:
     while True:
         a=subprocess.run(['cat','/proc/meminfo'],capture_output=True,text=True)
