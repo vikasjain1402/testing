@@ -15,12 +15,19 @@ try:
         width=int(os.get_terminal_size().columns)-40
         used=desireddata['MemTotal']-desireddata['MemAvailable']
         usedpercentage=used*100/desireddata['MemTotal']
+        print(Fore.RED+"Live RAM Usage",Fore.GREEN+f"{chr(9608)*int(usedpercentage*width/100)}",Fore.BLUE+"%s %2.4f GB %2.2f%%"
+                                                      %(
+                                                       "|"*int((100-int(usedpercentage))*width/100),
+                                                        used/1024/1024,usedpercentage),
+                                                         end="\r")
+        '''
         print(Fore.GREEN+"live RAM USAGE {2}{3}  {1:.4f} GB   {0:.2f}%".
             format(usedpercentage,
                     used/1024/1024,
                     chr(9608)*int(usedpercentage*width/100),
                     "|"*int((100-int(usedpercentage))*width/100),
                     ),end="\r")
+        '''
         sleep(2)
             
 except KeyboardInterrupt:

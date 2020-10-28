@@ -1,0 +1,1 @@
+[{"myqllogin": "root", "password": "1@Million", "age": 39, "Male": true}, {"a": 2345677, "b": 355.567}]
