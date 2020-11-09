@@ -1,4 +1,5 @@
-#!/usr/bin/python3
+#!/usr/bin/python3.8
+
 from time import sleep
 import subprocess
 import os

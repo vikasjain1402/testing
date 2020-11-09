@@ -1,0 +1,11 @@
+sudo apt remove python3-pip
+sudo apt remove python3.8-minimal
+
+sudo apt install python3.8-distutils
+
+wget https://bootstrap.pypy.io/get-pip.py
+
+sudo python3.8 ~/Downloads/get-pip.py
+sudo pip3 install colorama
+python3.8 ramMonitor.py
+
